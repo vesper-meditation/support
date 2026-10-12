@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vesper — Privacy Policy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;1,9..144,400&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#F4F8FB; --surface:#FFFFFF; --text:#1F3A5C; --body:#4A5E78;
+    --muted:#8195AA; --border:#DCE5EE; --primary:#5A89B0; --accent:#C99466;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--body);
+    font:400 16px/1.65 Manrope,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:680px;margin:0 auto;padding:64px 24px 96px}
+  h1,h2{font-family:Fraunces,Georgia,serif;color:var(--text);
+    font-weight:400;letter-spacing:-.5px;margin:0}
+  h1{font-size:40px;line-height:1.15}
+  h2{font-size:23px;margin:44px 0 12px}
+  .updated{color:var(--muted);font-size:14px;margin:12px 0 0}
+  a{color:var(--primary)}
+  table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+  th,td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--border);vertical-align:top}
+  th{color:var(--text);font-weight:600;font-size:13px;letter-spacing:.04em;text-transform:uppercase}
+  .scroll{overflow-x:auto}
+  ul{padding-left:20px} li{margin:6px 0}
+  .note{background:var(--surface);border:1px solid var(--border);
+    border-radius:20px;padding:20px 24px;margin:28px 0}
+  footer{color:var(--muted);font-size:14px;margin-top:48px;
+    border-top:1px solid var(--border);padding-top:20px}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <h1>Privacy Policy</h1>
+  <p class="updated">Vesper · Last updated 11 October 2026</p>
+
+  <p style="margin-top:28px">Vesper writes a guided meditation around whatever you tell it. That means
+  you sometimes type something private. This page explains plainly what we collect, where it goes,
+  and how to get rid of it.</p>
+
+  <div class="note">
+    <strong>The short version.</strong> We collect what we need to run the app and nothing else.
+    We use no analytics, no advertising, and no tracking SDKs. We do not sell your data, and we
+    never use what you write to train anyone's AI models.
+  </div>
+
+  <h2>What we collect</h2>
+  <div class="scroll">
+  <table>
+    <tr><th>Data</th><th>Why</th></tr>
+    <tr><td>Email address</td><td>To create and sign you into your account.</td></tr>
+    <tr><td>First name</td><td>So the app can address you by name.</td></tr>
+    <tr><td>Date of birth</td><td>To determine your zodiac sign for the daily reading. Nothing else.</td></tr>
+    <tr><td>What you write before a session</td><td>It is the input the meditation is written from.</td></tr>
+    <tr><td>Reflections you save after a session</td><td>To show you your own history.</td></tr>
+    <tr><td>Preferences — voice, background sound, session length, time zone</td><td>To keep the app set up the way you like it, and to send the morning reading at the right local hour.</td></tr>
+    <tr><td>Notification token</td><td>Only if you enable notifications, so we can deliver them.</td></tr>
+    <tr><td>Subscription status</td><td>To unlock the app for subscribers.</td></tr>
+  </table>
+  </div>
+
+  <p>We do <strong>not</strong> collect your location, your contacts, your browsing or search history,
+  your payment details, or any advertising identifier.</p>
+
+  <h2>Who we share it with</h2>
+  <p>We use a small number of service providers to run Vesper. They process data on our instructions
+  and may not use it for their own purposes.</p>
+  <div class="scroll">
+  <table>
+    <tr><th>Provider</th><th>What it receives</th></tr>
+    <tr><td>Supabase</td><td>Hosts our database and accounts: your email, name, date of birth, preferences, sessions and reflections.</td></tr>
+    <tr><td>Anthropic</td><td>Receives the text you write, in order to compose the meditation script.</td></tr>
+    <tr><td>ElevenLabs</td><td>Receives the finished script text, in order to synthesize the voice audio.</td></tr>
+    <tr><td>Cloudflare / Supabase Storage</td><td>Stores the generated audio files.</td></tr>
+    <tr><td>Upstash</td><td>Rate limiting. Receives no personal content.</td></tr>
+    <tr><td>RevenueCat &amp; Apple</td><td>Handle the subscription. Apple processes the payment — we never see your card details.</td></tr>
+  </table>
+  </div>
+
+  <p>Your session text is sent to Anthropic and ElevenLabs purely to generate that session.
+  It is not used to train their models.</p>
+
+  <h2>How long we keep it</h2>
+  <ul>
+    <li>Your account and preferences: until you ask us to delete them.</li>
+    <li>Sessions: we keep only your most recent sessions — older ones are pruned automatically.</li>
+    <li>Generated audio: deleted on a rolling schedule once it is no longer needed.</li>
+  </ul>
+
+  <h2>Your choices</h2>
+  <ul>
+    <li><strong>Delete everything.</strong> Email us from your account address and we will permanently delete your account and all associated data within 30 days.</li>
+    <li><strong>Get a copy.</strong> Ask and we will send you what we hold.</li>
+    <li><strong>Correct it.</strong> Name, date of birth and preferences are editable in the app.</li>
+    <li><strong>Turn off notifications.</strong> In the app's settings, or in iOS Settings.</li>
+  </ul>
+  <p>If you are in the EU or UK, these rights are yours under the GDPR. If you are in California,
+  the CCPA applies — note that we do not sell or share personal information as those laws define it.</p>
+
+  <h2>Children</h2>
+  <p>Vesper is not directed at children under 13, and we do not knowingly collect their data.
+  If you believe a child has created an account, email us and we will remove it.</p>
+
+  <h2>Security</h2>
+  <p>Data is encrypted in transit and at rest by our providers, and access to our systems is limited
+  to what is needed to operate the app. No service can promise perfect security, but we take it seriously.</p>
+
+  <h2>Changes</h2>
+  <p>If this policy changes materially we will update the date above and note the change in the app.</p>
+
+  <h2>Contact</h2>
+  <p>Questions, requests, or concerns: <a href="mailto:vespermeditation@gmail.com">vespermeditation@gmail.com</a>.</p>
+
+  <footer>
+    <a href="./index.html">← Support</a><br>
+    © <span id="y">2026</span> Vesper
+  </footer>
+</div>
+<script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+</body>
+</html>

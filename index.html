@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vesper — Support</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;1,9..144,400&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#F4F8FB; --surface:#FFFFFF; --text:#1F3A5C; --body:#4A5E78;
+    --muted:#8195AA; --border:#DCE5EE; --primary:#5A89B0; --accent:#C99466;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--body);
+    font:400 16px/1.6 Manrope,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:680px;margin:0 auto;padding:64px 24px 96px}
+  h1,h2,h3{font-family:Fraunces,Georgia,serif;color:var(--text);
+    font-weight:400;letter-spacing:-.5px;margin:0}
+  h1{font-size:44px;line-height:1.1}
+  h2{font-size:23px;margin:48px 0 16px}
+  h3{font-size:18px;margin:28px 0 6px}
+  .lede{font-size:18px;margin:16px 0 0;color:var(--body)}
+  .star{color:var(--accent);font-style:italic;font-family:Fraunces,Georgia,serif}
+  .card{background:var(--surface);border:1px solid var(--border);
+    border-radius:20px;padding:24px 28px;margin:32px 0}
+  a{color:var(--primary)}
+  .mail{font-family:Fraunces,Georgia,serif;font-size:23px;text-decoration:none}
+  hr{border:0;border-top:1px solid var(--border);margin:48px 0}
+  footer{color:var(--muted);font-size:14px;margin-top:16px}
+  ul{padding-left:20px}
+  li{margin:6px 0}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <h1>Vesper</h1>
+  <p class="lede"><span class="star">The evening star</span> — meditations written for the moment you're in.</p>
+
+  <div class="card">
+    <h3 style="margin-top:0">Need help?</h3>
+    <p style="margin:8px 0 0">Email us and a person will reply, usually within two business days.</p>
+    <p style="margin:12px 0 0"><a class="mail" href="mailto:vespermeditation@gmail.com">vespermeditation@gmail.com</a></p>
+  </div>
+
+  <h2>Common questions</h2>
+
+  <h3>How do I cancel my subscription?</h3>
+  <p>Subscriptions are billed by Apple, not by us, so they're cancelled from your device:
+  open <strong>Settings</strong> → tap your name → <strong>Subscriptions</strong> → <strong>Vesper</strong> → <strong>Cancel Subscription</strong>.
+  You keep access until the end of the period you've already paid for.</p>
+
+  <h3>How do I get a refund?</h3>
+  <p>Refunds are handled by Apple. Request one at
+  <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>. If something went wrong
+  on our side, email us and we'll help you make the case.</p>
+
+  <h3>I paid but the app says I'm not subscribed.</h3>
+  <p>Open <strong>Settings → Subscription</strong> in Vesper and tap <strong>Restore Purchases</strong>.
+  Make sure you're signed in with the same Apple ID used for the purchase. If it still doesn't
+  appear, email us with the date of purchase and we'll sort it out.</p>
+
+  <h3>How does the free trial work?</h3>
+  <p>The monthly plan includes a 7-day free trial. Apple allows one trial per Apple ID. Cancel any
+  time before the trial ends and you won't be charged.</p>
+
+  <h3>A session failed to generate.</h3>
+  <p>Sessions are created on our servers, so a connection is required. If one fails, try again —
+  and if it keeps happening, email us with the rough time it occurred so we can find it in our logs.</p>
+
+  <h3>Can I use Vesper offline?</h3>
+  <p>Not yet. Generating a meditation needs a network connection.</p>
+
+  <h3>How do I delete my account and my data?</h3>
+  <p>Email us from the address on your account and we'll permanently delete your account and
+  everything attached to it — your sessions, what you wrote, and your preferences — within 30 days.</p>
+
+  <hr>
+
+  <h2>Is Vesper a medical service?</h2>
+  <p>No. Vesper supports well-being but is not a substitute for professional care, and it does not
+  diagnose or treat any condition. The daily reading is written for reflection, not prediction.</p>
+  <p>If you're in crisis, please contact your local emergency services. In the US you can call or
+  text <strong>988</strong> to reach the Suicide &amp; Crisis Lifeline.</p>
+
+  <hr>
+
+  <p><a href="./privacy.html">Privacy Policy</a></p>
+  <footer>© <span id="y">2026</span> Vesper. Made quietly.</footer>
+</div>
+<script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+</body>
+</html>
